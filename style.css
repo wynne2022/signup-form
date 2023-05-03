@@ -1,0 +1,116 @@
+/* CSS for page layout */
+body {
+	font-family: Arial, sans-serif;
+	background-color: white;
+}
+header {
+	color:black;
+	padding-top: 20px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+form {
+	max-width: 450px;
+	margin: auto;
+	align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/* input[type="tel"], input[type="email"] {
+	width: 100%;
+	padding: 10px;
+	border-radius: 4px;
+	border: 1px solid #c0c0c0;
+	margin-bottom: 15px;
+	box-sizing: border-box;
+	font-size: 16px;
+}
+
+input[type="text"], input[type="password"] {
+	display: inline-block;
+	width: 45%;
+	padding: 10px;
+	border-radius: 4px;
+	border: 1px solid #c0c0c0;
+	margin-bottom: 15px;
+	box-sizing: border-box;
+	font-size: 16px;
+} */
+
+.input {
+	display: inline-block;
+	width: 100%;
+	padding: 10px;
+	border-radius: 4px;
+	border: 1px solid #c0c0c0;
+	margin-bottom: 15px;
+	box-sizing: border-box;
+	font-size: 16px;
+}
+.half-line {
+	width: 45%;
+}
+
+#agreement {
+	display: inline-block;
+	margin: auto;
+	align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+#check-box-div {
+	display: inline-block;
+	font-size: 16px;
+	font-weight: bold;
+	width: 25%;
+}
+#check-box-text {
+	display: inline-block; 
+	width: 70%; 
+	vertical-align: top; 
+	font-size: 12px;
+}
+input[type="checkbox"] {
+	display: inline-block;
+	margin-right: 8px;
+}
+
+
+a {
+	text-decoration: none;
+	color:dodgerblue;
+}
+
+#register-span {
+	font-size: 11px;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: rgb(69, 128, 177);
+    width: 80x;
+    padding: 3px 5px;
+    border-radius: 3px;
+    color: white;
+    text-align: center;
+}
+
+.button {
+	background-color:rgb(69, 128, 177);
+	color: white;
+	cursor: pointer;
+	display: inline-block;
+	width: 45%;
+	padding: 10px;
+	border-radius: 4px;
+	border: 1px solid #c0c0c0;
+	margin-bottom: 15px;
+	box-sizing: border-box;
+	font-size: 16px;
+}
+.button-green {
+	background-color:rgb(88, 170, 106);
+}
